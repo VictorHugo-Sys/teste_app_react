@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 2rem 1rem;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font: 400 0.8rem/1.5 arial;
+}
+
+.lista ul li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.lista ul li::before {
+  content: ' ';
+  position: absolute;
+  width: 0.8rem;
+  height: 0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -10px;
+  border-radius: 0.3rem;
+  background-color: #d4b32f;
+}

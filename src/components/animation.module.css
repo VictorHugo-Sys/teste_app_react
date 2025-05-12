@@ -1,0 +1,12 @@
+.animation {
+  transform: translateX(-30px);
+  opacity: 0;
+  animation: animationLeft 0.6s forwards;
+}
+
+@keyframes animationLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
