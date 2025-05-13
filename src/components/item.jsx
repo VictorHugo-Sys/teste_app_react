@@ -36,7 +36,7 @@ const Item = () => {
       {item.fotos.map((foto) => {
         return <img key={foto.src} src={foto.src} alt={foto.titulo} />;
       })}
-      <div>
+      <div className={styles.conteudo}>
         <h1>{item.nome}</h1>
         <span>{item.preco}</span>
         <p>{item.descricao}</p>
