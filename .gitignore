@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+
+# Vite
+dist/
+.vite/
+
+# Ambiente
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Editor de código
+.vscode/
+.idea/
+*.swp
+
+# Testes e coverage
+coverage/
+*.test.js.snap
+
+# Outros arquivos de build temporários
+*.tsbuildinfo
+
+# Se estiver usando eslint/prettier temporários
+.eslintcache
