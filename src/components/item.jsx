@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './item.module.css';
+import anime from './animation.module.css';
 import { useParams } from 'react-router-dom';
 import Head from './head.jsx';
 
@@ -31,7 +32,7 @@ const Item = () => {
   if (item === null) return null;
 
   return (
-    <div className={styles.itemBox}>
+    <div className={`${styles.itemBox} ${anime.animation}`}>
       <Head title={`${item.id}`} description={`${item.id}`} />
       {item.fotos.map((foto) => {
         return <img key={foto.src} src={foto.src} alt={foto.titulo} />;

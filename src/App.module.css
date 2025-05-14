@@ -1,9 +1,16 @@
+html {
+  font-size: 22px;
+}
+
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #f5f4ea;
 }
 
 .content {
-  max-width: 600px;
-  min-height: calc(100vh + 5rem);
+  max-width: 800px;
+  min-height: calc(100dvh + 5rem);
   margin: 0 auto;
 }

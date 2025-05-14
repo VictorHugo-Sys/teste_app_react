@@ -33,20 +33,8 @@ h2 {
   color: #555;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 740px) {
   .produtos {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 370px) {
-  .produtos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .produtoBox {
-    max-width: 180px;
   }
 }
